@@ -3,7 +3,7 @@
   <!-- polaris -->
   <project name="LineageOS/android_device_xiaomi_polaris" path="device/xiaomi/polaris" />
   <project name="LineageOS/android_device_xiaomi_sdm845-common" path="device/xiaomi/sdm845-common" />
-  <project name="LineageOS/android_kernel_xiaomi_sdm845" path="kernel/xiaomi/sdm845" />
+  <project name="https://github.com/karin722/UmiNico_kernel" revision="9.0" path="kernel/xiaomi/sdm845" />
   <project name="AICP/proprietary_vendor_xiaomi" revision="p9.0" path="vendor/xiaomi" />
-<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
 </manifest>
