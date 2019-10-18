@@ -1,0 +1,86 @@
+[W][2019-10-18T11:31:09+0000][20837] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:09+0000][20837] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+Trying dependencies-only mode on a non-existing device tree?
+[W][2019-10-18T11:31:10+0000][20924] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:10+0000][20924] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+AICP_VERSION=aicp_polaris_q-15.0-UNOFFICIAL-20191018
+TARGET_PRODUCT=aicp_polaris
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=generic
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.15.0-62-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QP1A.191005.007
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/xiaomi/sdm845-common vendor/nxp/opensource/pn5xx hardware/qcom-caf/sdm845
+============================================
+[W][2019-10-18T11:31:11+0000][21022] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:11+0000][21022] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+AICP_VERSION=aicp_polaris_q-15.0-UNOFFICIAL-20191018
+TARGET_PRODUCT=aicp_polaris
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=generic
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-4.15.0-62-generic-x86_64-Ubuntu-18.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QP1A.191005.007
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/xiaomi/sdm845-common vendor/nxp/opensource/pn5xx hardware/qcom-caf/sdm845
+============================================
+[W][2019-10-18T11:31:11+0000][21122] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:11+0000][21122] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+
+ninja: no work to do.
+[W][2019-10-18T11:31:11+0000][21126] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:11+0000][21126] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+
+[100% 1/1] out/soong/.bootstrap/bin/soong_build out/soong/build.ninja
+FAILED: out/soong/build.ninja
+out/soong/.bootstrap/bin/soong_build -t -l out/.module_paths/Android.bp.list -b out/soong -n out -d out/soong/build.ninja.d -globFile out/soong/.bootstrap/build-globs.ninja -o out/soong/build.ninja Android.bp
+error: vendor/xiaomi/sdm660-common/Android.bp:75:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:85:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/wayne/Android.bp:22:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:96:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:107:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:118:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:129:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:140:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:151:1: unrecognized module type "android_app_import"
+error: vendor/xiaomi/sdm660-common/Android.bp:163:1: unrecognized module type "android_app_import"
+ninja: build stopped: subcommand failed.
+FAILED: [W][2019-10-18T11:31:12+0000][21153] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-18T11:31:12+0000][21153] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+
+11:31:13 soong bootstrap failed with: exit status 1
+
+[0;31m#### failed to build some targets (3 seconds) ####[00m
+
