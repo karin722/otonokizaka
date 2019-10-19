@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- polaris -->
+  <project name="jjpprrrr/device_xiaomi_polaris" revision="ten" remote="github" path="device/xiaomi/polaris" />
+  <project name="pe-wip/device_xiaomi_sdm845-common" revision="ten"remote="github" path="device/xiaomi/sdm845-common" />
+  <project name="karin722/UmiNico_kernel" revision="10.0" remote="github" path="kernel/xiaomi/sdm845" />
+  <project name="jjpprrrr/vendor_xiaomi" revision="ten" remote="github" path="vendor/xiaomi" />
+  <project name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.0" remote="github" path="packages/resources/devicesettings" />
+</manifest>
