@@ -1,0 +1,26 @@
+FAILED: out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy
+/bin/bash -c "(ASAN_OPTIONS=detect_leaks=0 out/host/linux-x86/bin/checkpolicy -M -c 		30 -o out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.tmp out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.recovery.conf ) && (out/host/linux-x86/bin/sepolicy-analyze out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.tmp permissive > out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.permissivedomains ) && (if [ \"userdebug\" = \"user\" -a -s out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.permissivedomains ]; then 		echo \"==========\" 1>&2; 		echo \"ERROR: permissive domains not allowed in user builds\" 1>&2; 		echo \"List of invalid domains:\" 1>&2; 		cat out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.permissivedomains 1>&2; 		exit 1; 		fi ) && (mv out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy.tmp out/target/product/polaris/obj/ETC/sepolicy.recovery_intermediates/sepolicy )"
+device/xiaomi/sdm845-common/sepolicy/vendor/hal_camera_default.te:12:ERROR 'unknown type vendor_camera_prop' at token ';' on line 93318:
+#line 12
+allow hal_camera_default vendor_camera_prop:file { getattr open read map };
+checkpolicy:  error(s) encountered while parsing configuration
+[ 32% 36858/113267] Install: out/host/linux-x86/lib64/libsepolwrap.so
+[ 32% 36859/113267] build out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows
+FAILED: out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows
+/bin/bash -c "(ASAN_OPTIONS=detect_leaks=0 out/host/linux-x86/bin/checkpolicy -M -c 		30 -o out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows.tmp out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/policy.conf ) && (out/host/linux-x86/bin/sepolicy-analyze out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows.tmp neverallow -w -f out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/policy_2.conf || 	  ( echo \"\" 1>&2; 	    echo \"sepolicy-analyze failed. This is most likely due to the use\" 1>&2; 	    echo \"of an expanded attribute in a neverallow assertion. Please fix\" 1>&2; 	    echo \"the policy.\" 1>&2; 	    exit 1 ) ) && (touch out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows.tmp ) && (mv out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows.tmp out/target/product/polaris/obj/ETC/sepolicy_neverallows_intermediates/sepolicy_neverallows )"
+device/xiaomi/sdm845-common/sepolicy/vendor/hal_camera_default.te:12:ERROR 'unknown type vendor_camera_prop' at token ';' on line 85455:
+#line 12
+allow hal_camera_default vendor_camera_prop:file { getattr open read map };
+checkpolicy:  error(s) encountered while parsing configuration
+[ 32% 36860/113267] //frameworks/native/services/utils:libserviceutils clang++ PriorityDumper.cpp
+[ 32% 36861/113267] //frameworks/native/services/utils:libserviceutils clang++ PriorityDumper.cpp [arm]
+[ 32% 36862/113267] //external/sfntly:libsfntly clang++ cpp/src/sfntly/data/font_data.cc
+[ 32% 36863/113267] //external/sfntly:libsfntly clang++ cpp/src/sfntly/data/byte_array.cc
+[ 32% 36864/113267] //frameworks/base/libs/services:libservices clang++ src/os/StatsLogEventWrapper.cpp
+ninja: build stopped: subcommand failed.
+FAILED: [W][2019-10-25T11:04:33+0000][11902] void cmdline::logParams(nsjconf_t *)():250 Process will be UID/EUID=0 in the global user namespace, and will have user root-level access to files
+[W][2019-10-25T11:04:33+0000][11902] void cmdline::logParams(nsjconf_t *)():260 Process will be GID/EGID=0 in the global user namespace, and will have group root-level access to files
+
+11:43:55 ninja failed with: exit status 1
+
+[0;31m#### failed to build some targets (41:32 (mm:ss)) ####[00m
