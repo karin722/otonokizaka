@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- los -->
+  <project name="nicoyoha/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="lineage-16.0" />
+  <project name="karin722/UmiNico_kernel_bluecross" path="kernel/google/crosshatch" remote="github" revision="pie" />
+  <project name="nicoyoha/android_vendor_google" path="vendor/google" remote="github" revision="p9x" />
+
+  <!-- floko -->
+  <project name="nicoyoha/android_external_google" path="external/google" remote="github" revision="p9x" />
+  <remove-project name="FlokoROM/frameworks_base" />
+  <remove-project name="FlokoROM/packages_apps_Settings" />
+  <remove-project name="FlokoROM/packages_apps_FlokoSettings" />
+  <project name="nicoyoha/frameworks_base" path="frameworks/base" remote="github" revision="9.0" />
+  <project name="nicoyoha/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="9.0" />
+  <project name="nicoyoha/packages_apps_FlokoSettings" path="packages/apps/FlokoSettings" revision="github" revision="9.0" />
+
+</manifest>
