@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- los -->
+<!-- floko -->
   <project name="nicoyoha/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="lineage-16.0" />
-  <project name="DirtyUnicorns/android_kernel_google_bluecross" path="kernel/google/crosshatch" remote="github" revision="p9x" />
+  <project name="LineageOS/android_kernel_google_crosshatch" path="kernel/google/crosshatch" remote="github" revision="lineage-16.0" />
   <project name="DirtyUnicorns/android_vendor_google" path="vendor/google" remote="github" revision="p9x" />
 </manifest>

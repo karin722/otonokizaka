@@ -1,0 +1,14 @@
+including vendor/lineage/vendorsetup.sh
+build/make/core/product_config.mk:234: error: Can not locate config makefile for product "lineage_blueline".
+10:49:55 dumpvars failed with: exit status 1
+Device blueline not found. Attempting to retrieve device repository from crDroid Android Github (http://github.com/crdroidandroid).
+Repository for blueline not found in the crDroid Android Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml.
+build/make/core/product_config.mk:234: error: Can not locate config makefile for product "lineage_blueline".
+10:49:57 dumpvars failed with: exit status 1
+build/make/core/product_config.mk:234: error: Can not locate config makefile for product "lineage_blueline".
+10:49:58 dumpvars failed with: exit status 1
+
+** Don't have a product spec for: 'lineage_blueline'
+** Do you have the right repo manifest?
+
+No such item in brunch menu. Try 'breakfast'

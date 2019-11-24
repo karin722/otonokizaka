@@ -1,0 +1,14 @@
+including vendor/lineage/vendorsetup.sh
+device/google/crosshatch/BoardConfig-common.mk:131: error: device/google/crosshatch-sepolicy/crosshatch-sepolicy.mk: No such file or directory
+11:09:58 dumpvars failed with: exit status 1
+Device crosshatch not found. Attempting to retrieve device repository from crDroid Android Github (http://github.com/crdroidandroid).
+Repository for crosshatch not found in the crDroid Android Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml.
+device/google/crosshatch/BoardConfig-common.mk:131: error: device/google/crosshatch-sepolicy/crosshatch-sepolicy.mk: No such file or directory
+11:09:59 dumpvars failed with: exit status 1
+device/google/crosshatch/BoardConfig-common.mk:131: error: device/google/crosshatch-sepolicy/crosshatch-sepolicy.mk: No such file or directory
+11:09:59 dumpvars failed with: exit status 1
+
+** Don't have a product spec for: 'lineage_crosshatch'
+** Do you have the right repo manifest?
+
+No such item in brunch menu. Try 'breakfast'
