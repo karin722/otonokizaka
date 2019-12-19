@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- floko -->
-  <project name="nicoyoha/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="lineage-16.0" />
-  <project name="LineageOS/android_kernel_google_crosshatch" path="kernel/google/crosshatch" remote="github" revision="lineage-16.0" />
-  <project name="DirtyUnicorns/android_vendor_google" path="vendor/google" remote="github" revision="p9x" />
+  <project name="LineageOS/android_device_google_blueline" path="device/google/blueline" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_kernel_google_crosshatch" path="kernel/google/crosshatch" revision="lineage-16.0" />
+  <project name="DirtyUnicorns/android_vendor_google" path="vendor/google" revision="p9x" />
+
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="NicoToriROM/android_frameworks_base" path="frameworks/base" revision="lineage-16.0" />
 </manifest>
