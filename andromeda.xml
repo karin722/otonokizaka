@@ -2,6 +2,7 @@
 <manifest>
   <!-- uminico -->
   <project name="Xiaomi-Andromeda/device_xiaomi_andromeda" path="device/xiaomi/andromeda" revision="lineage-16.0" />
+  <project name="kingdevil731/android_device_xiaomi_sdm855-common" revision="lineage-16.0" path="device/xiaomi/sdm855-common" />
   <project name="Xiaomi-Andromeda/kernel_xiaomi_andromeda" path="kernel/xiaomi/andromeda" revision="lineage-16.0" />
   <project name="Xiaomi-Andromeda/vendor_xiaomi_andromeda" path="vendor/xiaomi/andromeda" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" />
