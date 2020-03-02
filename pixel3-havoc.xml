@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- DU -->
+  <project name="DirtyUnicorns/android_device_google_blueline" path="device/google/blueline" remote="github" revision="q10x" />
+  <project name="DirtyUnicorns/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="q10x" />
+  <project name="DirtyUnicorns/android_kernel_google_bluecross" path="kernel/google/bluecross" remote="github" revision="q10x" />
+  <project name="DirtyUnicorns/android_vendor_google" path="vendor/google" remote="github" revision="q10x" />
+  <project name="DirtyUnicorns/android_vendor_images" path="vendor/google" remote="gitlab" revision="q10x" />
+  <project name="DirtyUnicorns/android_vendor_pixelgapps" path="vendor/google" remote="gitlab" revision="q10x" />
+</manifest>

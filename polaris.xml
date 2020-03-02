@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- polaris -->
-  <project name="LineageOS/android_device_xiaomi_polaris" revision="lineage-17.0" path="device/xiaomi/polaris" />
-  <project name="NicoToriOS/android_device_xiaomi_sdm845-common" revision="lineage-17.0" path="device/xiaomi/sdm845-common" />
-  <project name="karin722/UmiNico_kernel" revision="10.0" path="kernel/xiaomi/sdm845" />
-  <project name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.0" path="packages/resources/devicesettings" />
-  <project name="jjpprrrr/vendor_xiaomi" revision="ten" path="vendor/xiaomi" />
-  <!-- nicotori beta -->
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project name="NicoToriOS/frameworks_base" revision="10.0" path="frameworks/base" />
-  <project name="NicoToriOS/packages_apps_Settings" revision="10.0" path="packages/apps/Settings" />
+  <project name="Inkypen79/device_xiaomi_andromeda" revision="lineage-17.0" path="device/xiaomi/andromeda" />
+  <project name="kingdevil731/android_device_xiaomi_sdm855-common" revision="lineage-16.0" path="device/xiaomi/sdm855-common" />
+  <project name="Inkypen79/kernel_xiaomi_andromeda" revision="lineage-16.0" path="kernel/xiaomi/andromeda" />
+  <project name="Inkypen79/vendor_xiaomi_andromeda" revision="lineage-16.0" path="vendor/xiaomi" />
 </manifest>

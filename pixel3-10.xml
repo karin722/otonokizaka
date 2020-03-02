@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- floko -->
+  <project name="LineageOS/android_device_google_blueline" path="device/google/blueline" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_device_google_crosshatch" path="device/google/crosshatch" remote="github" revision="lineage-17.0" />
+  <project name="LineageOS/android_kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="github" revision="lineage-17.0" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.0" />
+  <project name="DirtyUnicorns/android_external_google" path="external/google" remote="github" revision="q10x" />
+<!-- gapps 
+  <project name="havoc-gapps/android_vendor_gapps" path="vendor/gapps" revision="ten" remote="gitlab" /> -->
+</manifest>
